@@ -85,6 +85,14 @@ jobs:
       
       - uses: actions/download-artifact@v4
       
+      - name: Prepare Release Assets
+        run: |
+          mkdir -p release
+          cp volume-windows/volume.exe release/volume-windows.exe
+          cp volume-linux/volume release/volume-linux
+          cp volume-macos/volume release/volume-macos
+          ls -la release/
+      
       - name: Read Version
         id: version
         run: |
@@ -96,9 +104,9 @@ jobs:
         with:
           tag_name: v${{ steps.version.outputs.version }}
           files: |
-            volume-windows/volume.exe
-            volume-linux/volume
-            volume-macos/volume
+            release/volume-windows.exe
+            release/volume-linux
+            release/volume-macos
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
