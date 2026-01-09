@@ -132,8 +132,9 @@ jobs:
       - name: Read Release Body
         id: release-content
         run: |
+          BODY=$(cat ${{ steps.release-body.outputs.body_file }})
           echo "body<<EOF" >> $GITHUB_OUTPUT
-          cat ${{ steps.release-body.outputs.body_file }} >> $GITHUB_OUTPUT
+          echo "$BODY" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       
       - name: Create Release
