@@ -2,22 +2,192 @@
 <!-- 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Lateralus138&repo=volume-control) -->
 
-[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=Lateralus138&repo=volume-control)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=Lateralus138&repo=volume-control&border_radius=24&theme=merko)](https://github.com/Pranesh-2005/github-readme-stats)
 
-***This project is*** ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&style=for-the-badge&labelColor=1D1D1D&color=ffff99), but coming very soon.
+<!-- ***This project is*** ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&style=for-the-badge&labelColor=1D1D1D&color=ffff99), but coming very soon. -->
+
+- [Volume Control ](#volume-control-)
+  - [About](#about)
+    - [Description](#description)
+    - [Motivation](#motivation)
+  - [Usage](#usage)
+    - [Environment](#environment)
+    - [How To Use](#how-to-use)
+    - [Examples](#examples)
+  - [Project Information](#project-information)
+    - [Changelog](#changelog)
+    - [Source File Quality](#source-file-quality)
+    - [File SHA256 Hashes](#file-sha256-hashes)
+      - [Current Windows X64 SHA256](#current-windows-x64-sha256)
+      - [Current Linux X64 SHA256](#current-linux-x64-sha256)
+      - [Current MaxOS X64 SHA256](#current-maxos-x64-sha256)
+    - [Other Miscellaneous File Information](#other-miscellaneous-file-information)
+  - [Media](#media)
+    - [Icon](#icon)
+    - [Help Screen](#help-screen)
+  - [Support Me If You Like](#support-me-if-you-like)
+  - [LICENSE](#license)
+
 
 ---
 
 ## About
+
+Volume Control is a lightweight, cross-platform command-line utility designed for precise audio volume management. Built with modern C++ and a focus on simplicity, it provides an intuitive interface for controlling system audio through terminal commands.
+
 ### Description
+
+Volume Control offers a comprehensive set of features for audio management, including:
+
+- **Quick Volume Adjustments**: Set volume to specific percentages (0-100%) or use relative adjustments (+/-)
+- **Mute/Unmute Controls**: Instantly mute or unmute system audio with simple commands
+- **Preset Levels**: Quickly set volume to maximum (100%) or minimum (0%) levels
+- **Cross-Platform Support**: Works seamlessly on Windows, Linux, and macOS
+- **Clean Interface**: Intuitive command-line syntax with comprehensive help system
+
+The utility is designed for power users, developers, and system administrators who prefer keyboard-driven workflows and need precise control over audio levels without navigating through graphical interfaces.
+
 ### Motivation
+
+While modern operating systems provide graphical audio controls, they often require multiple clicks and navigation through menus to make simple volume adjustments. This becomes particularly inefficient when:
+
+- Working in terminal environments or remote sessions
+- Needing precise volume control for automated scripts
+- Preferring keyboard-driven workflows for productivity
+- Managing audio in headless or server environments
+
+Volume Control was created to provide instant, precise audio control through a single command, eliminating the friction of graphical interfaces while maintaining full functionality. The project emphasizes code quality, maintainability, and user experience through clean, refactored code architecture.
 
 ---
 
 ## Usage
+
 ### Environment
+
+Volume Control is designed to work across multiple operating systems with minimal dependencies:
+
+**Supported Platforms:**
+- **Windows**: Windows 10/11 (x64)
+- **Linux**: Most modern distributions (x64)
+- **macOS**: macOS 10.15+ (x64)
+
+**Requirements:**
+- C++17 compatible compiler (if building from source)
+- CMake 3.16 or higher (if building from source)
+- System audio permissions (may require administrator/root access on some systems)
+
+**Build Dependencies (if building from source):**
+- Windows: Visual Studio 2019+ or MinGW
+- Linux: GCC 7+ or Clang 6+
+- macOS: Xcode 10+ or Clang 6+
+
 ### How To Use
+
+Volume Control uses a simple command-line syntax with intuitive switches and arguments.
+
+**Basic Syntax:**
+```bash
+volume [OPTIONS] [VOLUME_VALUE]
+```
+
+**Available Options:**
+- `-h, --help` - Show help message
+- `-m, --mute` - Mute audio
+- `-u, --unmute` - Unmute audio
+- `-x, --max` - Set volume to maximum (100%)
+- `-n, --min` - Set volume to minimum (0%)
+
+**Volume Values:**
+- **Absolute**: Set volume to specific percentage (0-100)
+- **Relative**: Adjust volume by +/- value (e.g., +10, -5)
+
+**Getting Current Volume:**
+Simply run `volume` without any arguments to display the current volume level.
+
 ### Examples
+
+**Basic Volume Control:**
+```bash
+# Set volume to 50%
+volume 50
+
+# Increase volume by 10%
+volume +10
+
+# Decrease volume by 5%
+volume -5
+
+# Set volume to maximum
+volume --max
+
+# Set volume to minimum
+volume --min
+```
+
+**Mute/Unmute Operations:**
+```bash
+# Mute audio
+volume --mute
+
+# Unmute audio
+volume --unmute
+
+# Alternative short forms
+volume -m
+volume -u
+```
+
+**Combined Operations:**
+```bash
+# Set volume to 75% then show current level
+volume 75
+
+# Mute and check status
+volume --mute
+
+# Unmute and set to 30%
+volume --unmute 30
+```
+
+**Help and Information:**
+```bash
+# Show help message
+volume --help
+
+# Show help with short form
+volume -h
+
+# Check current volume
+volume
+```
+
+**Script Integration:**
+```bash
+#!/bin/bash
+# Example script for gradual volume increase
+
+for i in {10..100..10}; do
+    volume $i
+    sleep 1
+done
+```
+
+**Common Workflows:**
+```bash
+# Quick mute for meetings
+volume -m
+
+# Set comfortable listening level
+volume 40
+
+# Gradually decrease volume
+volume -10
+volume -10
+volume -10
+
+# Reset to maximum
+volume -x
+```
 
 ---
 
@@ -31,25 +201,46 @@ This project is written in `C++`.
 
 See [Changelog](./docs/md/reference/changelog.md)
 
-#### Coming Updates
 ### Source File Quality
+
+This is graded by CodeFactor and is subjective, but helps me to refactor my work.
+
+|                                                Name                                                 |                                                                        Status                                                                        |
+| :-------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [codefactor.io](https://www.codefactor.io/repository/github/lateralus138/Volume-Control) | ![](https://img.shields.io/codefactor/grade/github/Lateralus138/Volume-Control/master?style=for-the-badge&labelColor=1D1D1D&color=ffff99) |
+
 ### File SHA256 Hashes
+
+All hashes are retrieved at compile/build time.
+
 #### Current Windows X64 SHA256
+
+![WINDOWS X64 SHA256](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/Volume-Control/master/docs/json/volume-windows_x64_sha256.json)
+
+#### Current Linux X64 SHA256
+
+![LINUX X64 SHA256](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/Volume-Control/master/docs/json/volume-linux_x64_sha256.json)
+
+#### Current MaxOS X64 SHA256
+
+![LINUX X64 SHA256](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/Volume-Control/master/docs/json/volume-macos_x64_sha256.json)
+
 ### Other Miscellaneous File Information
 
 ![](https://ghvc.kabelkultur.se?username=Lateralus138&repository=volume-control&color=2E9778&labelColor=1d1d1d&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAB2AAAAdgFOeyYIAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAzFJREFUOI19k19ME1kUxs+dO+1MB2ZKaUtpVSgOImgRWlZkdzWBVXQ1/skmazYqKolSozGbTXz33Rjj48YHY2KixhATNUaz+C+uwWiwEGUxImJRYKWUtiPMTNvpnbk+YdSI39N3kvM7L+f7ABZQZ9eRxq6uP38CANiwL1qxce+B0Lf2mM+H1s5OHgAQAIBTYK9UOen9aPTIWjIrzFICP7fv7ur8+gCaNzv2HFpR7eZ6iGUacT3b4OeE7o4Vrk1XR9KTQymyn1BzLUNRkiLm9u2LZ0bmOXbeFBgqyqUOrs7JLro+CoMvM4UtD//P3mop4xfnzdyO4TQZMix4Zsfm5o6Dh8s9PHOCgnUaAwC07op6GMNMKcQiZSIXafI6fKmc8es7ldxcs8T5g6LmGhLUPIZzZuLHuooHNotca/HYmv5LF+4wTdGoLeTmHq9ZLMRFm0V74rNnZgijbq6SljpZaL8+knmxbonTIfPctVvd55K9r97LlU67b0o3zQnNuIvfx2J0VaT5t23LvdUCtVo/5InwLKnfW+YRa2udrK8vobPNFaWCiIjHXxdpJNTK/RJ07RpXdPOtrh/HAAAo0nhxOpmtlMskeXWZICfUfPDfybmRSKDEvbGqRORZDF7JwZQLuMbO4pbGclEaT6nMSw3/jfcdPPR7uIjvYRhkxKa0CwZQeXtNqR8R4jIQVheJnDD/MIm3M7LLISIAmFZUFM/kL7MmYOwVeRTx8usfjX9oHk5nX48pRi4a8ddyGDkWClqxDUPIK7Thwf6+IaGy/p+xOaNmpa840BYoDmYLhA1IPM+xzEI8qFoW3mlkjAUANGeRYj1j/qXk80GvwB/fWu1ukDh2QZgChbkCgYxBH+P23Qd2AmMzKLJ26gVL0LB1ND6TcxfZcY2vyM5/C0+lZ6E3kdMSyeQe/GZw4IUcCv8BQGcoZZ+0VAXGT586eaNkaUg1AYUrJE78hFIKU0kFeiZU9W1Bre0+f0nBAABvBvt7g/WRBEZWeDKjJUafx9SB2NM+aVn903gmH2Ko6dKyWVv/hFIYSOdHh9N05dVzZ6e/KNN3hDZ1RMN+B2qe1ODu50UCAPgIvxtjGIqp0NkAAAAASUVORK5CYII=)
 
----
-
-## Notes
-<!-- ### Note 1
-### Note 2
-### Note 3
-### Note 4 -->
 
 ---
 
 ## Media
+
+### Icon
+
+<img src="./docs/media/icons/Volume%20Control.png" alt="Icon" width="256" height="256">
+
+### Help Screen
+
+![Help Screen](./docs/media/screenshots/help.png)
 
 ---
 
