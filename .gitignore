@@ -361,3 +361,28 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Build directories
+build/
+out/
+cmake-build-*/
+.cmake/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeUserPresets.json
