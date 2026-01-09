@@ -7,6 +7,15 @@ on:
       - develop
   workflow_dispatch:
 
+env:
+  RELEASE_TITLE: "Volume Control"
+  RELEASE_FILE: "./docs/md/release.md"
+  PRERELEASE_FILE: "./docs/md/pre-release.md"
+  BIN_WINDOWS: "volume-windows.exe"
+  BIN_LINUX: "volume"
+  BIN_MACOS: "volume"
+  PRERELEASE: false
+
 jobs:
   build-windows:
     runs-on: windows-latest
@@ -111,14 +120,33 @@ jobs:
           VERSION=$(cat VERSION)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
       
+      - name: Determine Release Body File
+        id: release-body
+        run: |
+          if [ "${{ env.PRERELEASE }}" = "true" ]; then
+            echo "body_file=${{ env.PRERELEASE_FILE }}" >> $GITHUB_OUTPUT
+          else
+            echo "body_file=${{ env.RELEASE_FILE }}" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Read Release Body
+        id: release-content
+        run: |
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          cat ${{ steps.release-body.outputs.body_file }} >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v${{ steps.version.outputs.version }}
+          name: ${{ env.RELEASE_TITLE }} - v${{ steps.version.outputs.version }}
+          body: ${{ steps.release-content.outputs.body }}
           files: |
             release/volume-windows.exe
             release/volume-linux
             release/volume-macos
           generate_release_notes: true
+          prerelease: ${{ env.PRERELEASE }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
