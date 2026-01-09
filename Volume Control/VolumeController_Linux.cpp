@@ -17,7 +17,7 @@ private:
             case PA_CONTEXT_READY:
             case PA_CONTEXT_FAILED:
             case PA_CONTEXT_TERMINATED:
-                pa_mainloop_api_get_api(pa_mainloop_get_api(self->mainloop_))->quit(
+                pa_mainloop_get_api(self->mainloop_)->quit(
                     pa_mainloop_get_api(self->mainloop_), 0);
                 break;
             default:
