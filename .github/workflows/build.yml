@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - name: Clean Workspace
+        run: |
+          Remove-Item -Path "build", "out", ".vs" -Recurse -Force -ErrorAction SilentlyContinue
+      
       - name: Setup CMake
         uses: lukka/get-cmake@latest
       
@@ -34,6 +38,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Clean Workspace
+        run: |
+          rm -rf build out .cmake
       
       - name: Install Dependencies
         run: |
@@ -58,6 +66,10 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Clean Workspace
+        run: |
+          rm -rf build out .cmake
       
       - name: Setup CMake
         uses: lukka/get-cmake@latest
