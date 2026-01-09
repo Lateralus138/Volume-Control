@@ -1,0 +1,104 @@
+name: Build and Release
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup CMake
+        uses: lukka/get-cmake@latest
+      
+      - name: Configure Windows Build
+        run: |
+          cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release -B build/windows -S .
+      
+      - name: Build Windows
+        run: |
+          cmake --build build/windows --config Release
+      
+      - name: Upload Windows Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: volume-windows
+          path: build/windows/volume.exe
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpulse-dev ninja-build cmake
+      
+      - name: Configure Linux Build
+        run: |
+          cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release -B build/linux -S .
+      
+      - name: Build Linux
+        run: |
+          cmake --build build/linux --config Release
+      
+      - name: Upload Linux Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: volume-linux
+          path: build/linux/volume
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup CMake
+        uses: lukka/get-cmake@latest
+      
+      - name: Configure macOS Build
+        run: |
+          cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release -B build/macos -S .
+      
+      - name: Build macOS
+        run: |
+          cmake --build build/macos --config Release
+      
+      - name: Upload macOS Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: volume-macos
+          path: build/macos/volume
+
+  create-release:
+    needs: [build-windows, build-linux, build-macos]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/download-artifact@v3
+      
+      - name: Read Version
+        id: version
+        run: |
+          VERSION=$(cat VERSION)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          files: |
+            volume-windows/volume.exe
+            volume-linux/volume
+            volume-macos/volume
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
